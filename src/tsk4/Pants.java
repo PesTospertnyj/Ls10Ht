@@ -8,4 +8,13 @@ public class Pants extends Clothes implements ManClothes {
     @Override
     public void gotOnMan() {
     }
+
+    @Override
+    public String toString() {
+        return "Pants{" +
+                "size=" + size +
+                ", cost=" + cost +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

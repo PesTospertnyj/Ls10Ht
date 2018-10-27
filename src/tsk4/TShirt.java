@@ -17,4 +17,13 @@ public class TShirt extends Clothes implements ManClothes {
         TShirt tShirt = new TShirt(Sizes.XS, 15, "white");
         tShirt.gotOnMan();
     }
+
+    @Override
+    public String toString() {
+        return "TShirt{" +
+                "size=" + size +
+                ", cost=" + cost +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

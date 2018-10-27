@@ -2,7 +2,7 @@ package tsk4;
 
 public class Studio {
     public static void dressMan(Clothes clothes[]) {
-        System.out.println("Man clothes: T-Shirt: " + clothes[0] + " Pants " + clothes[1] + " Tie " + clothes[3]);
+        System.out.println("Man clothes: T-Shirt: " + clothes[0].toString() + " Pants " + clothes[1].toString() + " Tie " + clothes[3].toString());
     }
 
     public void dressWoman(Clothes clothes[]) {
@@ -21,5 +21,6 @@ public class Studio {
 
         std.dressMan(clothes);
         std.dressWoman(clothes);
+
     }
 }

@@ -8,4 +8,13 @@ public class Tie extends Clothes implements ManClothes {
     @Override
     public void gotOnMan() {
     }
+
+    @Override
+    public String toString() {
+        return "Tie{" +
+                "size=" + size +
+                ", cost=" + cost +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
