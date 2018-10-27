@@ -1,18 +1,21 @@
 package tsk4;
 
 public abstract class Clothes {
-    public int size;
+    public Sizes size;
     public int cost;
     public String color;
 
-    public Clothes(int size, int cost, String color) {
+    public Clothes(Sizes size, int cost, String color) {
+        this.size = size;
+        this.cost = cost;
+        this.color = color;
     }
 
-    public int getSize() {
+    public Sizes getSize() {
         return size;
     }
 
-    public void setSize(int size) {
+    public void setSize(Sizes size) {
         this.size = size;
     }
 
